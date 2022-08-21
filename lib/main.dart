@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'View/login_page.dart';
+import 'View/cadastro/cadastro_concluido.dart';
 
 void main() {
   runApp(const MyApp());
@@ -7,8 +7,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const Login(),
+      home: const CadastroConcluido(),
     );
   }
 }
