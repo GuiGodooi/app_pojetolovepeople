@@ -29,7 +29,7 @@ class _CadastroPageState extends State<CadastroPage> {
                   ),
                 ),
                 const SizedBox(
-                  height: 10,
+                  height: 30,
                 ),
                 Form(
                   child: Padding(
@@ -78,6 +78,7 @@ class _CadastroPageState extends State<CadastroPage> {
                           height: 10,
                         ),
                         TextFormField(
+                          obscureText: true,
                           decoration: InputDecoration(
                             contentPadding: const EdgeInsets.all(
                               10,
@@ -102,6 +103,7 @@ class _CadastroPageState extends State<CadastroPage> {
                           height: 10,
                         ),
                         TextFormField(
+                          obscureText: true,
                           decoration: InputDecoration(
                             contentPadding: const EdgeInsets.all(
                               10,
@@ -123,7 +125,7 @@ class _CadastroPageState extends State<CadastroPage> {
                           ),
                         ),
                         const SizedBox(
-                          height: 20,
+                          height: 36,
                         ),
                         SizedBox(
                           height: 45,

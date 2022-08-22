@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'View/cadastro/cadastro_concluido.dart';
+import 'View/cadastro/cadastro_page.dart';
+import 'View/login/login_page.dart';
+import 'View/tarefas/nova_tarefa.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const CadastroConcluido(),
+      home: const Login(),
     );
   }
 }
